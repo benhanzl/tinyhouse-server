@@ -6,7 +6,7 @@ import { Listing } from "../src/lib/types";
 
 const seed = async () => {
   try {
-    console.log(`[seed] : running...`);
+    console.log("[seed] : running...");
 
     const db = await connectDatabase();
     const listings: Listing[] = [
@@ -52,8 +52,8 @@ const seed = async () => {
       await db.listings.insertOne(listing);
     }
 
-    console.log(`[seed] : success`);
-  } catch (error) {
+    console.log("[seed] : success");
+  } catch {
     throw new Error("failed to seed database");
   }
 };
