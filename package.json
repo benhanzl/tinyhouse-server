@@ -1,6 +1,8 @@
 {
   "name": "tinyhouse-server",
   "version": "0.1.0",
+  "private": true,
+  "repository": "github:benhanzl/tinyhouse-server",
   "dependencies": {
     "apollo-server-express": "^2.9.12",
     "body-parser": "^1.19.0",
