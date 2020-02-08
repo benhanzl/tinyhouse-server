@@ -27,8 +27,9 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
+    "build": "tsc -p ./",
+    "clear": "ts-node temp/clear.ts",
     "start": "nodemon src/index.ts",
-    "seed": "ts-node temp/seed.ts",
-    "build": "tsc -p ./"
+    "seed": "ts-node temp/seed.ts"
   }
 }
