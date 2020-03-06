@@ -44,6 +44,7 @@ export enum ListingType {
 
 export interface User {
   _id: string;
+  authorized?: boolean;
   avatar: string;
   bookings: ObjectId[];
   contact: string;
