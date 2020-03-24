@@ -11,7 +11,7 @@
     "googleapis": "^48.0.0",
     "graphql": "^14.6.0",
     "lodash.merge": "^4.6.2",
-    "mongodb": "^3.5.4"
+    "mongodb": "^3.5.5"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.0",
